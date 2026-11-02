@@ -1,0 +1,50 @@
+{
+  "name": "serverless-office-converter",
+  "version": "0.1.0",
+  "description": "Convert Word, Excel, PowerPoint and OpenDocument files to PDF, DOCX, ODT, PNG, ... in the browser with LibreOffice compiled to WebAssembly, in a Web Worker. No server, nothing uploaded. Includes the engine (~30 MB).",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./office-engine.js": "./office-engine.js",
+    "./isolation.js": "./isolation.js",
+    "./formats.js": "./formats.js",
+    "./file-system.js": "./file-system.js",
+    "./engine-worker.js": "./engine-worker.js",
+    "./service-worker.js": "./service-worker.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "office-engine.js",
+    "isolation.js",
+    "formats.js",
+    "file-system.js",
+    "engine-worker.js",
+    "lo-thread.js",
+    "service-worker.js",
+    "vendor/",
+    "lo/",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "docx",
+    "xlsx",
+    "pptx",
+    "pdf",
+    "converter",
+    "office",
+    "libreoffice",
+    "webassembly",
+    "wasm",
+    "web-worker",
+    "privacy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skitionek/serverless-office-converter.git",
+    "directory": "web/office-converter"
+  }
+}

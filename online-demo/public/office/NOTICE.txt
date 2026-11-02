@@ -1,0 +1,7 @@
+Browser Office conversion uses LibreOffice 26.8 compiled to WebAssembly.
+LibreOffice is licensed under MPL-2.0: https://www.libreoffice.org/about-us/licenses/
+Corresponding source and build scripts:
+https://github.com/Skitionek/serverless-office-converter
+https://git.libreoffice.org/core/
+The unmodified engine manifest identifies the exact LibreOffice build.
+The XZ decoder has its own MIT license; see vendor/README.md.

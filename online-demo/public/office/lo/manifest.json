@@ -1,0 +1,45 @@
+{
+  "version": "27fc605096a569d4-2",
+  "libreoffice": "26.8.3 (97e4364041)",
+  "emscripten": "4.0.10",
+  "built": "2026-10-14T21:57:33+00:00",
+  "compressedSize": 29703608,
+  "files": {
+    "soffice.data": {
+      "type": "application/octet-stream",
+      "size": 51010084,
+      "encoding": "xz",
+      "compressedSize": 6099632,
+      "parts": [
+        "soffice.data-pkg.xz.000"
+      ]
+    },
+    "soffice.data.js.metadata": {
+      "type": "application/json",
+      "size": 202482,
+      "encoding": "xz",
+      "compressedSize": 18860,
+      "parts": [
+        "soffice.data.js.metadata.xz.000"
+      ]
+    },
+    "soffice.js": {
+      "type": "text/javascript",
+      "size": 271138,
+      "encoding": "xz",
+      "compressedSize": 57708,
+      "parts": [
+        "soffice.js.xz.000"
+      ]
+    },
+    "soffice.wasm": {
+      "type": "application/wasm",
+      "size": 94511770,
+      "encoding": "xz",
+      "compressedSize": 23527408,
+      "parts": [
+        "soffice.wasm.xz.000"
+      ]
+    }
+  }
+}
